@@ -1,0 +1,3 @@
+Command Line: /home/nfs_cad/synopsys/verdi/cur/platform/LINUXAMD64/bin/Novas -nWave -f LBP.fsdb -sswr /home/charlie/icc/graduate/icc2016cb_pre/conf/rtl.rc +access+r +nc64bit
+uname(Linux caidcpuserver1 5.15.0-46-generic #49~20.04.1-Ubuntu SMP Thu Aug 4 19:15:44 UTC 2022 x86_64)
+au time 17865.632258 140.353933 179.038014 delta 1655365632 1655365632 total 2027495424 2027495424

@@ -1,0 +1,13 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-sv
+tb.sv
+geofence_syn.v
++nc64bit
++access+r
++define+FSDB
++define+SDF
+-v
+tsmc13_neg.v

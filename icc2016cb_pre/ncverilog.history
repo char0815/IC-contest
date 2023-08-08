@@ -1,0 +1,1 @@
+s1(24Aug2022:13:39:26):  ncverilog ./sim/textfixture.v ./src/LBP +access+r +nc64bits 

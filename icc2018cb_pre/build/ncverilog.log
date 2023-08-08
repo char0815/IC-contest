@@ -1,0 +1,63 @@
+ncverilog(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on Feb 02, 2023 at 17:39:55 CST
+ncverilog
+	/home/charlie/icc/graduate/icc2018cb_pre/sim/tb.v
+	/home/charlie/icc/graduate/icc2018cb_pre/src/def.v
+	/home/charlie/icc/graduate/icc2018cb_pre/src/huffman.sv
+	+incdir+/home/charlie/icc/graduate/icc2018cb_pre/src
+	+nc64bit
+	+access+r
+	+define+FSDB_FILE="huffman.fsdb"
+	+define+tb
+Recompiling... reason: file '../sim/tb.v' is newer than expected.
+	expected: Thu Feb  2 17:10:02 2023
+	actual:   Thu Feb  2 17:39:52 2023
+file: /home/charlie/icc/graduate/icc2018cb_pre/sim/tb.v
+	module worklib.tb:v
+		errors: 0, warnings: 0
+file: /home/charlie/icc/graduate/icc2018cb_pre/src/huffman.sv
+ncvlog: *W,SPDUSD: Include directory /home/charlie/icc/graduate/icc2018cb_pre/src given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.tb:v <0x4d3e70c7>
+			streams:  20, words: 18489
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  2       2
+		Registers:               49      49
+		Scalar wires:             5       -
+		Vectored wires:          43       -
+		Always blocks:            3       3
+		Initial blocks:           7       7
+		Cont. assignments:       24      24
+		Pseudo assignments:       1       1
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.tb:v
+Loading snapshot worklib.tb:v .................... Done
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_O-2018.09, Linux x86_64/64bit, 08/30/2018
+(C) 1996 - 2018 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'huffman.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : Enable +all dumping.
+*Verdi* : End of traversing.
+./pattern3.dat and ./golden3.dat were used for this simulation.
+Check CNT : PASS
+Check HC : PASS
+Check M : PASS
+You PASS the contest now.
+Simulation complete via $finish(1) at time 1287 NS + 0
+../sim/tb.v:175                  $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s084: Exiting on Feb 02, 2023 at 17:39:55 CST  (total: 00:00:00)

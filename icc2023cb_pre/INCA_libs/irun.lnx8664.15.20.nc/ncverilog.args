@@ -1,0 +1,9 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+tb.sv
+LASER.v
++define+SDF
++access+r
++nc64bit

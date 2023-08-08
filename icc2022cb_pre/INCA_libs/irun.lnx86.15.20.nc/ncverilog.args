@@ -1,0 +1,12 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+tb.sv
+JAM_syn.v
+-v
+tsmc13_neg.v+nc64bit
++access+r
++define+FSDB
++define+P2
++define+SDF

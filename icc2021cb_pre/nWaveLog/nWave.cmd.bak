@@ -1,0 +1,1305 @@
+wvResizeWindow -win $_nWave1 0 23 1920 1137
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvOpenFile -win $_nWave1 {/home/GuangYuHuang/2022_training/2021/geofence.fsdb}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/testfixture"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_geofence"
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 1 2 )} 
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 3 )} 
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 5)}
+wvSetPosition -win $_nWave1 {("G1" 5)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 4 5 )} 
+wvSetPosition -win $_nWave1 {("G1" 5)}
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 6 )} 
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 6 )} 
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvGetSignalClose -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/testfixture"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_geofence"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_geofence"
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 7 8 )} 
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 7 8 )} 
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvGetSignalClose -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 6 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 7 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 7 8 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 7 8 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetCursor -win $_nWave1 456225.802752 -snap {("G2" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 1 2 3 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 1 2 3 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetCursor -win $_nWave1 538926.998689 -snap {("G2" 0)}
+wvSetCursor -win $_nWave1 558096.150066 -snap {("G2" 0)}
+wvSetCursor -win $_nWave1 443628.931848 -snap {("G2" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 9 10 )} 
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 9 10 )} 
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvGetSignalClose -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 9 10 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvZoom -win $_nWave1 8763.040629 216337.565531
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/testfixture"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_geofence"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_geofence"
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvGetSignalClose -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/testfixture"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_geofence"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_geofence"
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 14 15 )} 
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 14 15 )} 
+wvSetPosition -win $_nWave1 {("G1" 15)}
+wvGetSignalClose -win $_nWave1
+wvSetCursor -win $_nWave1 178029.841541 -snap {("G2" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 13 14 15 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 13 14 15 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetCursor -win $_nWave1 136814.192101 -snap {("G2" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 16)}
+wvSetPosition -win $_nWave1 {("G1" 16)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+{/testfixture/u_geofence/CAL_cnt\[2:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 16 )} 
+wvSetPosition -win $_nWave1 {("G1" 16)}
+wvSetPosition -win $_nWave1 {("G1" 16)}
+wvSetPosition -win $_nWave1 {("G1" 16)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+{/testfixture/u_geofence/CAL_cnt\[2:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 16 )} 
+wvSetPosition -win $_nWave1 {("G1" 16)}
+wvGetSignalClose -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSetCursor -win $_nWave1 214620.632628 -snap {("G2" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 18)}
+wvSetPosition -win $_nWave1 {("G1" 18)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+{/testfixture/u_geofence/CAL_cnt\[2:0\]} \
+{/testfixture/u_geofence/length_1\[22:0\]} \
+{/testfixture/u_geofence/length_2\[22:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 17 18 )} 
+wvSetPosition -win $_nWave1 {("G1" 18)}
+wvSetPosition -win $_nWave1 {("G1" 18)}
+wvSetPosition -win $_nWave1 {("G1" 18)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+{/testfixture/u_geofence/CAL_cnt\[2:0\]} \
+{/testfixture/u_geofence/length_1\[22:0\]} \
+{/testfixture/u_geofence/length_2\[22:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 17 18 )} 
+wvSetPosition -win $_nWave1 {("G1" 18)}
+wvGetSignalClose -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 17 18 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetCursor -win $_nWave1 219653.566718 -snap {("G2" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSetCursor -win $_nWave1 155313.625513 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 150824.792406 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 153953.373056 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 159666.433375 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 148376.337984 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 159122.332392 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 164699.367465 -snap {("G1" 11)}
+wvSetCursor -win $_nWave1 166331.670413 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 160890.660586 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 154633.499285 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 144975.706842 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 148376.337984 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 150280.691423 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 151504.918634 -snap {("G1" 11)}
+wvSelectSignal -win $_nWave1 {( "G1" 14 )} 
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 19)}
+wvSetPosition -win $_nWave1 {("G1" 19)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+{/testfixture/u_geofence/CAL_cnt\[2:0\]} \
+{/testfixture/u_geofence/length_1\[22:0\]} \
+{/testfixture/u_geofence/length_2\[22:0\]} \
+{/testfixture/u_geofence/test_area\[22:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 19 )} 
+wvSetPosition -win $_nWave1 {("G1" 19)}
+wvSetPosition -win $_nWave1 {("G1" 20)}
+wvSetPosition -win $_nWave1 {("G1" 20)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+{/testfixture/u_geofence/CAL_cnt\[2:0\]} \
+{/testfixture/u_geofence/length_1\[22:0\]} \
+{/testfixture/u_geofence/length_2\[22:0\]} \
+{/testfixture/u_geofence/test_area\[22:0\]} \
+{/testfixture/u_geofence/original_area\[22:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 20 )} 
+wvSetPosition -win $_nWave1 {("G1" 20)}
+wvSetPosition -win $_nWave1 {("G1" 20)}
+wvSetPosition -win $_nWave1 {("G1" 20)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+{/testfixture/u_geofence/CAL_cnt\[2:0\]} \
+{/testfixture/u_geofence/length_1\[22:0\]} \
+{/testfixture/u_geofence/length_2\[22:0\]} \
+{/testfixture/u_geofence/test_area\[22:0\]} \
+{/testfixture/u_geofence/original_area\[22:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 20 )} 
+wvSetPosition -win $_nWave1 {("G1" 20)}
+wvGetSignalClose -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 19 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 19 20 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 19 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 20 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 19 20 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 19 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 19 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 19 20 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 19 20 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/testfixture"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_geofence"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_geofence"
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+{/testfixture/u_geofence/CAL_cnt\[2:0\]} \
+{/testfixture/u_geofence/length_1\[22:0\]} \
+{/testfixture/u_geofence/length_2\[22:0\]} \
+{/testfixture/u_geofence/test_area\[22:0\]} \
+{/testfixture/u_geofence/original_area\[22:0\]} \
+{/testfixture/u_geofence/original_area_sum\[22:0\]} \
+{/testfixture/u_geofence/test_area_sum\[22:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 21 22 )} 
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+{/testfixture/u_geofence/CAL_cnt\[2:0\]} \
+{/testfixture/u_geofence/length_1\[22:0\]} \
+{/testfixture/u_geofence/length_2\[22:0\]} \
+{/testfixture/u_geofence/test_area\[22:0\]} \
+{/testfixture/u_geofence/original_area\[22:0\]} \
+{/testfixture/u_geofence/original_area_sum\[22:0\]} \
+{/testfixture/u_geofence/test_area_sum\[22:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 21 22 )} 
+wvSetPosition -win $_nWave1 {("G1" 22)}
+wvGetSignalClose -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 21 22 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetCursor -win $_nWave1 165107.443202 -snap {("G2" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSetCursor -win $_nWave1 196665.300199 -snap {("G2" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 21 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 22 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 21 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 22 )} 
+wvSetCursor -win $_nWave1 140758.924226 -snap {("G2" 0)}
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSetCursor -win $_nWave1 326460.589621 -snap {("G1" 11)}
+wvSetCursor -win $_nWave1 462485.835297 -snap {("G1" 11)}
+wvSetCursor -win $_nWave1 552806.598426 -snap {("G1" 10)}
+wvSetCursor -win $_nWave1 608304.898661 -snap {("G1" 10)}
+wvZoom -win $_nWave1 502749.308017 686655.440171
+wvZoomOut -win $_nWave1
+wvSetCursor -win $_nWave1 680003.003411 -snap {("G1" 21)}
+wvSetCursor -win $_nWave1 677833.730555 -snap {("G1" 21)}
+wvSetCursor -win $_nWave1 676146.518333 -snap {("G1" 21)}
+wvSetCursor -win $_nWave1 678074.760872
+wvSetCursor -win $_nWave1 674700.336429 -snap {("G1" 22)}
+wvSetCursor -win $_nWave1 676869.609285 -snap {("G1" 22)}
+wvSetCursor -win $_nWave1 677110.639603
+wvSetCursor -win $_nWave1 676146.518333
+wvSetCursor -win $_nWave1 641679.182949 -snap {("G1" 11)}
+wvZoom -win $_nWave1 633002.091524 709408.702130
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 8 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 8 )} 
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 8 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 8 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 8 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 8 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSetCursor -win $_nWave1 196919.763338 -snap {("G2" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSetCursor -win $_nWave1 174889.023713
+wvSetCursor -win $_nWave1 181698.525052
+wvSetCursor -win $_nWave1 167078.125119 -snap {("G1" 9)}
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSetCursor -win $_nWave1 152858.284089 -snap {("G1" 10)}
+wvSetCursor -win $_nWave1 157264.432014 -snap {("G1" 9)}
+wvSetCursor -win $_nWave1 152858.284089 -snap {("G1" 9)}
+wvSetCursor -win $_nWave1 156863.873112 -snap {("G1" 9)}
+wvSetCursor -win $_nWave1 157500.000000
+wvSetCursor -win $_nWave1 159868.064879
+wvSetCursor -win $_nWave1 164674.771706
+wvSetCursor -win $_nWave1 169080.919631
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSetCursor -win $_nWave1 156418.251333
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 14 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 15 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 22 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 19 )} 
+wvSetCursor -win $_nWave1 172841.166326 -snap {("G2" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 22 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 21 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 22 )} 
+wvSetCursor -win $_nWave1 183455.977235
+wvSetCursor -win $_nWave1 152412.662310 -snap {("G1" 22)}
+wvSetCursor -win $_nWave1 159422.443100 -snap {("G1" 22)}
+wvSetCursor -win $_nWave1 167233.341694 -snap {("G1" 22)}
+wvSetCursor -win $_nWave1 172841.166326 -snap {("G1" 22)}
+wvSetCursor -win $_nWave1 180652.064920 -snap {("G1" 22)}
+wvSetCursor -win $_nWave1 150810.426701 -snap {("G1" 20)}
+wvSetCursor -win $_nWave1 183255.697784 -snap {("G1" 22)}
+wvSetCursor -win $_nWave1 183856.536138 -snap {("G1" 21)}
+wvSetCursor -win $_nWave1 179250.108762 -snap {("G1" 22)}
+wvSelectSignal -win $_nWave1 {( "G1" 21 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 21 22 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 21 22 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetRadix -win $_nWave1 -2Com
+wvSelectSignal -win $_nWave1 {( "G1" 21 22 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+{/testfixture/u_geofence/CAL_cnt\[2:0\]} \
+{/testfixture/u_geofence/length_1\[22:0\]} \
+{/testfixture/u_geofence/length_2\[22:0\]} \
+{/testfixture/u_geofence/test_area\[22:0\]} \
+{/testfixture/u_geofence/original_area\[22:0\]} \
+{/testfixture/u_geofence/original_area_sum\[22:0\]} \
+{/testfixture/u_geofence/test_area_sum\[22:0\]} \
+{/testfixture/u_geofence/is_inside} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 23 )} 
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+{/testfixture/u_geofence/CAL_cnt\[2:0\]} \
+{/testfixture/u_geofence/length_1\[22:0\]} \
+{/testfixture/u_geofence/length_2\[22:0\]} \
+{/testfixture/u_geofence/test_area\[22:0\]} \
+{/testfixture/u_geofence/original_area\[22:0\]} \
+{/testfixture/u_geofence/original_area_sum\[22:0\]} \
+{/testfixture/u_geofence/test_area_sum\[22:0\]} \
+{/testfixture/u_geofence/is_inside} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 23 )} 
+wvSetPosition -win $_nWave1 {("G1" 23)}
+wvGetSignalClose -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/testfixture"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_geofence"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_geofence"
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+{/testfixture/u_geofence/CAL_cnt\[2:0\]} \
+{/testfixture/u_geofence/length_1\[22:0\]} \
+{/testfixture/u_geofence/length_2\[22:0\]} \
+{/testfixture/u_geofence/test_area\[22:0\]} \
+{/testfixture/u_geofence/original_area\[22:0\]} \
+{/testfixture/u_geofence/original_area_sum\[22:0\]} \
+{/testfixture/u_geofence/test_area_sum\[22:0\]} \
+{/testfixture/u_geofence/is_inside} \
+{/testfixture/u_geofence/valid} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 24 )} 
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+{/testfixture/u_geofence/CAL_cnt\[2:0\]} \
+{/testfixture/u_geofence/length_1\[22:0\]} \
+{/testfixture/u_geofence/length_2\[22:0\]} \
+{/testfixture/u_geofence/test_area\[22:0\]} \
+{/testfixture/u_geofence/original_area\[22:0\]} \
+{/testfixture/u_geofence/original_area_sum\[22:0\]} \
+{/testfixture/u_geofence/test_area_sum\[22:0\]} \
+{/testfixture/u_geofence/is_inside} \
+{/testfixture/u_geofence/valid} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 24 )} 
+wvSetPosition -win $_nWave1 {("G1" 24)}
+wvGetSignalClose -win $_nWave1
+wvSetCursor -win $_nWave1 152212.382859 -snap {("G1" 22)}
+wvSelectSignal -win $_nWave1 {( "G1" 22 )} 
+wvSetCursor -win $_nWave1 155216.574626 -snap {("G1" 22)}
+wvSetCursor -win $_nWave1 153414.059566 -snap {("G1" 22)}
+wvSetCursor -win $_nWave1 157820.207491 -snap {("G1" 22)}
+wvSetCursor -win $_nWave1 152012.103408 -snap {("G1" 22)}
+wvSetCursor -win $_nWave1 176846.755348 -snap {("G1" 22)}
+wvSetCursor -win $_nWave1 171639.489619 -snap {("G1" 21)}
+wvSetCursor -win $_nWave1 177047.034799 -snap {("G1" 21)}
+wvSetCursor -win $_nWave1 187261.286807 -snap {("G1" 21)}
+wvSetCursor -win $_nWave1 173442.004679 -snap {("G1" 21)}
+wvSetCursor -win $_nWave1 179450.388213 -snap {("G1" 21)}
+wvSetCursor -win $_nWave1 175244.519739 -snap {("G1" 21)}
+wvSetCursor -win $_nWave1 152012.103408 -snap {("G1" 19)}
+wvSelectSignal -win $_nWave1 {( "G1" 20 )} 
+wvSetRadix -win $_nWave1 -2Com
+wvSetCursor -win $_nWave1 171639.489619 -snap {("G1" 20)}
+wvSetCursor -win $_nWave1 152612.941761 -snap {("G1" 20)}
+wvSetCursor -win $_nWave1 156418.251333 -snap {("G1" 20)}
+wvSetCursor -win $_nWave1 163027.473220 -snap {("G1" 20)}
+wvSetCursor -win $_nWave1 167233.341694 -snap {("G1" 20)}
+wvSetCursor -win $_nWave1 173241.725228 -snap {("G1" 20)}
+wvSelectSignal -win $_nWave1 {( "G1" 22 )} 
+wvSetCursor -win $_nWave1 153013.500664 -snap {("G1" 22)}
+wvSetCursor -win $_nWave1 158421.045844 -snap {("G1" 22)}
+wvSetCursor -win $_nWave1 163027.473220 -snap {("G1" 22)}
+wvSetCursor -win $_nWave1 169035.856754 -snap {("G1" 22)}
+wvSetCursor -win $_nWave1 173241.725228 -snap {("G1" 22)}
+wvSetCursor -win $_nWave1 181853.741626 -snap {("G1" 22)}
+wvSetCursor -win $_nWave1 152412.662310 -snap {("G1" 22)}
+wvSelectSignal -win $_nWave1 {( "G1" 19 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSetCursor -win $_nWave1 152500.000000
+wvZoom -win $_nWave1 137591.982927 212696.777100
+wvSetCursor -win $_nWave1 177408.351529 -snap {("G2" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 19 )} 
+wvSetCursor -win $_nWave1 184741.650566 -snap {("G2" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 22 )} 
+wvSetCursor -win $_nWave1 186168.936956 -snap {("G2" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSetCursor -win $_nWave1 180656.658485 -snap {("G2" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/testfixture"
+wvSetPosition -win $_nWave1 {("G1" 25)}
+wvSetPosition -win $_nWave1 {("G1" 25)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+{/testfixture/u_geofence/CAL_cnt\[2:0\]} \
+{/testfixture/u_geofence/length_1\[22:0\]} \
+{/testfixture/u_geofence/length_2\[22:0\]} \
+{/testfixture/u_geofence/test_area\[22:0\]} \
+{/testfixture/u_geofence/original_area\[22:0\]} \
+{/testfixture/u_geofence/original_area_sum\[22:0\]} \
+{/testfixture/u_geofence/test_area_sum\[22:0\]} \
+{/testfixture/u_geofence/is_inside} \
+{/testfixture/u_geofence/valid} \
+{/testfixture/objnum\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 25 )} 
+wvSetPosition -win $_nWave1 {("G1" 25)}
+wvSetPosition -win $_nWave1 {("G1" 25)}
+wvSetPosition -win $_nWave1 {("G1" 25)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+{/testfixture/u_geofence/CAL_cnt\[2:0\]} \
+{/testfixture/u_geofence/length_1\[22:0\]} \
+{/testfixture/u_geofence/length_2\[22:0\]} \
+{/testfixture/u_geofence/test_area\[22:0\]} \
+{/testfixture/u_geofence/original_area\[22:0\]} \
+{/testfixture/u_geofence/original_area_sum\[22:0\]} \
+{/testfixture/u_geofence/test_area_sum\[22:0\]} \
+{/testfixture/u_geofence/is_inside} \
+{/testfixture/u_geofence/valid} \
+{/testfixture/objnum\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 25 )} 
+wvSetPosition -win $_nWave1 {("G1" 25)}
+wvGetSignalClose -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 25 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvZoom -win $_nWave1 4058383.191350 4397951.015727
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvSetCursor -win $_nWave1 4145166.580279 -snap {("G1" 25)}
+wvSelectSignal -win $_nWave1 {( "G1" 4 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 4 5 6 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 5 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 4 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 4 5 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 4 5 6 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 4 5 6 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 22 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 21 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 22 )} 
+wvSetCursor -win $_nWave1 4149272.102141
+wvSetCursor -win $_nWave1 4151719.838751
+wvSetCursor -win $_nWave1 4159953.134624
+wvSetCursor -win $_nWave1 4165961.215396
+wvZoom -win $_nWave1 4259642.771139 4338637.907216
+wvSetCursor -win $_nWave1 4196322.423531
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/testfixture"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_geofence"
+wvGetSignalSetScope -win $_nWave1 "/testfixture"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_geofence"
+wvSetPosition -win $_nWave1 {("G1" 26)}
+wvSetPosition -win $_nWave1 {("G1" 26)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+{/testfixture/u_geofence/CAL_cnt\[2:0\]} \
+{/testfixture/u_geofence/length_1\[22:0\]} \
+{/testfixture/u_geofence/length_2\[22:0\]} \
+{/testfixture/u_geofence/test_area\[22:0\]} \
+{/testfixture/u_geofence/original_area\[22:0\]} \
+{/testfixture/u_geofence/original_area_sum\[22:0\]} \
+{/testfixture/u_geofence/test_area_sum\[22:0\]} \
+{/testfixture/u_geofence/is_inside} \
+{/testfixture/u_geofence/valid} \
+{/testfixture/objnum\[31:0\]} \
+{/testfixture/u_geofence/Outer_product\[19:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 26 )} 
+wvSetPosition -win $_nWave1 {("G1" 26)}
+wvSetPosition -win $_nWave1 {("G1" 26)}
+wvSetPosition -win $_nWave1 {("G1" 26)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+{/testfixture/u_geofence/CAL_cnt\[2:0\]} \
+{/testfixture/u_geofence/length_1\[22:0\]} \
+{/testfixture/u_geofence/length_2\[22:0\]} \
+{/testfixture/u_geofence/test_area\[22:0\]} \
+{/testfixture/u_geofence/original_area\[22:0\]} \
+{/testfixture/u_geofence/original_area_sum\[22:0\]} \
+{/testfixture/u_geofence/test_area_sum\[22:0\]} \
+{/testfixture/u_geofence/is_inside} \
+{/testfixture/u_geofence/valid} \
+{/testfixture/objnum\[31:0\]} \
+{/testfixture/u_geofence/Outer_product\[19:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 26 )} 
+wvSetPosition -win $_nWave1 {("G1" 26)}
+wvGetSignalClose -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 26 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetRadix -win $_nWave1 -2Com
+wvSetCursor -win $_nWave1 4270115.062114 -snap {("G2" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 4628872.944371 4889774.311231
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 27)}
+wvSetPosition -win $_nWave1 {("G1" 27)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+{/testfixture/u_geofence/CAL_cnt\[2:0\]} \
+{/testfixture/u_geofence/length_1\[22:0\]} \
+{/testfixture/u_geofence/length_2\[22:0\]} \
+{/testfixture/u_geofence/test_area\[22:0\]} \
+{/testfixture/u_geofence/original_area\[22:0\]} \
+{/testfixture/u_geofence/original_area_sum\[22:0\]} \
+{/testfixture/u_geofence/test_area_sum\[22:0\]} \
+{/testfixture/u_geofence/is_inside} \
+{/testfixture/u_geofence/valid} \
+{/testfixture/objnum\[31:0\]} \
+{/testfixture/u_geofence/Outer_product\[19:0\]} \
+{/testfixture/u_geofence/EDGE_cnt\[2:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 27 )} 
+wvSetPosition -win $_nWave1 {("G1" 27)}
+wvSetPosition -win $_nWave1 {("G1" 27)}
+wvSetPosition -win $_nWave1 {("G1" 27)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+{/testfixture/u_geofence/CAL_cnt\[2:0\]} \
+{/testfixture/u_geofence/length_1\[22:0\]} \
+{/testfixture/u_geofence/length_2\[22:0\]} \
+{/testfixture/u_geofence/test_area\[22:0\]} \
+{/testfixture/u_geofence/original_area\[22:0\]} \
+{/testfixture/u_geofence/original_area_sum\[22:0\]} \
+{/testfixture/u_geofence/test_area_sum\[22:0\]} \
+{/testfixture/u_geofence/is_inside} \
+{/testfixture/u_geofence/valid} \
+{/testfixture/objnum\[31:0\]} \
+{/testfixture/u_geofence/Outer_product\[19:0\]} \
+{/testfixture/u_geofence/EDGE_cnt\[2:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 27 )} 
+wvSetPosition -win $_nWave1 {("G1" 27)}
+wvGetSignalClose -win $_nWave1
+wvSetCursor -win $_nWave1 4670965.943402 -snap {("G1" 11)}
+wvZoom -win $_nWave1 4668743.323632 4681737.100749
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 26 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 27 )} 
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/testfixture"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_geofence"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_geofence"
+wvSetPosition -win $_nWave1 {("G1" 28)}
+wvSetPosition -win $_nWave1 {("G1" 28)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+{/testfixture/u_geofence/CAL_cnt\[2:0\]} \
+{/testfixture/u_geofence/length_1\[22:0\]} \
+{/testfixture/u_geofence/length_2\[22:0\]} \
+{/testfixture/u_geofence/test_area\[22:0\]} \
+{/testfixture/u_geofence/original_area\[22:0\]} \
+{/testfixture/u_geofence/original_area_sum\[22:0\]} \
+{/testfixture/u_geofence/test_area_sum\[22:0\]} \
+{/testfixture/u_geofence/is_inside} \
+{/testfixture/u_geofence/valid} \
+{/testfixture/objnum\[31:0\]} \
+{/testfixture/u_geofence/Outer_product\[19:0\]} \
+{/testfixture/u_geofence/EDGE_cnt\[2:0\]} \
+{/testfixture/u_geofence/EDGE_cnt_2nd\[2:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 28 )} 
+wvSetPosition -win $_nWave1 {("G1" 28)}
+wvSetPosition -win $_nWave1 {("G1" 28)}
+wvSetPosition -win $_nWave1 {("G1" 28)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/X_reg\[5:0\]} \
+{/testfixture/u_geofence/Y_reg\[5:0\]} \
+{/testfixture/u_geofence/R_reg\[5:0\]} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/polygen_length_after\[11:0\]} \
+{/testfixture/u_geofence/polygen_length_before\[22:0\]} \
+{/testfixture/u_geofence/delta_X\[19:0\]} \
+{/testfixture/u_geofence/delta_Y\[19:0\]} \
+{/testfixture/u_geofence/state\[3:0\]} \
+{/testfixture/u_geofence/test_area_before1\[22:0\]} \
+{/testfixture/u_geofence/test_area_before2\[22:0\]} \
+{/testfixture/u_geofence/test_area_after1\[11:0\]} \
+{/testfixture/u_geofence/test_area_after2\[11:0\]} \
+{/testfixture/u_geofence/CAL_cnt\[2:0\]} \
+{/testfixture/u_geofence/length_1\[22:0\]} \
+{/testfixture/u_geofence/length_2\[22:0\]} \
+{/testfixture/u_geofence/test_area\[22:0\]} \
+{/testfixture/u_geofence/original_area\[22:0\]} \
+{/testfixture/u_geofence/original_area_sum\[22:0\]} \
+{/testfixture/u_geofence/test_area_sum\[22:0\]} \
+{/testfixture/u_geofence/is_inside} \
+{/testfixture/u_geofence/valid} \
+{/testfixture/objnum\[31:0\]} \
+{/testfixture/u_geofence/Outer_product\[19:0\]} \
+{/testfixture/u_geofence/EDGE_cnt\[2:0\]} \
+{/testfixture/u_geofence/EDGE_cnt_2nd\[2:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 28 )} 
+wvSetPosition -win $_nWave1 {("G1" 28)}
+wvGetSignalClose -win $_nWave1
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSetCursor -win $_nWave1 4688024.522127 -snap {("G2" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSetCursor -win $_nWave1 124930.994672 -snap {("G2" 0)}
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 7194628.440367 7587509.174312
+wvSetCursor -win $_nWave1 7382572.697102 -snap {("G1" 11)}

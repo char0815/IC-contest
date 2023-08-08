@@ -1,0 +1,12 @@
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvOpenFile -win $_nWave1 {/home/GuangYuHuang/2022_training/2017/DT.fsdb}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/testfixture"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_dut"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_res_RAM"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_sti_ROM"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_res_RAM"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_dut/Unnamed_\$DT_sv_244"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_dut"
+wvGetSignalSetScope -win $_nWave1 "/testfixture"
+wvExit

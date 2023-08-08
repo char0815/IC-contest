@@ -1,0 +1,61 @@
+s1(29Mar2023:13:28:24):  ncverilog tb.sv LASER.v +define+USECOLOR +access+r +nc64bit 
+s2(29Mar2023:13:30:06):  ncverilog tb.sv LASER.v +define+USECOLOR +access+r +nc64bit 
+s3(29Mar2023:13:37:06):  ncverilog tb.sv LASER.v +define+USECOLOR +access+r +nc64bit 
+s4(29Mar2023:13:39:12):  ncverilog tb.sv LASER.v +define+USECOLOR +access+r +nc64bit 
+s5(29Mar2023:13:43:25):  ncverilog tb.sv LASER.v +define+USECOLOR +access+r +nc64bit 
+s6(29Mar2023:13:43:45):  ncverilog tb.sv LASER.v +define+USECOLOR +access+r +nc64bit 
+s7(29Mar2023:13:44:17):  ncverilog tb.sv LASER.v +define+USECOLOR +access+r +nc64bit 
+s8(29Mar2023:13:53:56):  ncverilog tb.sv LASER.v +define+P1+USECOLOR +access+r +nc64bit 
+s9(29Mar2023:13:57:45):  ncverilog tb.sv LASER.v +define+P1+USECOLOR +access+r +nc64bit 
+s10(29Mar2023:14:03:01):  ncverilog tb.sv LASER.v +define+P1+USECOLOR +access+r +nc64bit 
+s11(29Mar2023:14:04:02):  ncverilog tb.sv LASER.v +define+P1+USECOLOR +access+r +nc64bit 
+s12(29Mar2023:14:04:32):  ncverilog tb.sv LASER.v +define+P1+USECOLOR +access+r +nc64bit 
+s13(29Mar2023:14:05:07):  ncverilog tb.sv LASER.v +define+P1+USECOLOR +access+r +nc64bit 
+s14(29Mar2023:14:21:36):  ncverilog tb.sv LASER.v +define+P1+USECOLOR +access+r +nc64bit 
+s15(29Mar2023:14:21:46):  ncverilog tb.sv LASER.v +define+USECOLOR +access+r +nc64bit 
+s16(29Mar2023:14:27:18):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+USECOLOR +access+r +nc64bit 
+s17(29Mar2023:14:28:57):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+USECOLOR +access+r +nc64bit 
+s18(29Mar2023:14:44:06):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+USECOLOR +access+r +nc64bit 
+s19(29Mar2023:14:44:21):  ncverilog tb.sv LASER.v +define+USECOLOR +access+r +nc64bit 
+s20(29Mar2023:14:50:05):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+USECOLOR +access+r +nc64bit 
+s21(29Mar2023:14:50:49):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+P1+USECOLOR +access+r +nc64bit 
+s22(29Mar2023:14:58:55):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+P1+USECOLOR +access+r +nc64bit 
+s23(29Mar2023:15:01:11):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+P1+USECOLOR +access+r +nc64bit 
+s24(29Mar2023:15:06:54):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+P1+USECOLOR +access+r +nc64bit 
+s25(29Mar2023:15:11:38):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+P1+USECOLOR +access+r +nc64bit 
+s26(29Mar2023:15:14:47):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+P1+USECOLOR +access+r +nc64bit 
+s27(29Mar2023:15:18:47):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+P1+USECOLOR +access+r +nc64bit 
+s28(29Mar2023:15:20:37):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+P1+USECOLOR +access+r +nc64bit 
+s29(29Mar2023:15:21:48):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+P1+USECOLOR +access+r +nc64bit 
+s30(29Mar2023:15:23:25):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+P1+USECOLOR +access+r +nc64bit 
+s31(29Mar2023:15:25:34):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+P1+USECOLOR +access+r +nc64bit 
+s32(29Mar2023:15:27:42):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+P1+USECOLOR +access+r +nc64bit 
+s33(29Mar2023:15:28:24):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+USECOLOR +access+r +nc64bit 
+s34(29Mar2023:15:32:19):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+USECOLOR +access+r +nc64bit 
+s35(29Mar2023:15:33:57):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+USECOLOR +access+r +nc64bit 
+s36(29Mar2023:15:38:06):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+USECOLOR +access+r +nc64bit 
+s37(29Mar2023:15:43:51):  ncverilog tb.sv LASER.v +define+USECOLOR +access+r +nc64bit 
+s38(29Mar2023:15:44:24):  ncverilog tb.sv LASER.v +define+USECOLOR +access+r +nc64bit 
+s39(29Mar2023:15:44:35):  ncverilog tb.sv LASER.v +define+USECOLOR +access+r +nc64bit 
+s40(29Mar2023:15:48:43):  ncverilog tb.sv LASER.v +define+USECOLOR +access+r +nc64bit 
+s41(29Mar2023:15:56:42):  ncverilog tb.sv LASER.v +define+USECOLOR +access+r +nc64bit 
+s42(29Mar2023:16:05:29):  ncverilog tb.sv LASER.v +define+USECOLOR +access+r +nc64bit 
+s43(29Mar2023:16:11:09):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+USECOLOR +access+r +nc64bit 
+s44(29Mar2023:16:57:37):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+USECOLOR +access+r +nc64bit 
+s45(29Mar2023:17:13:49):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+USECOLOR +access+r +nc64bit 
+s46(29Mar2023:17:16:03):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+USECOLOR +access+r +nc64bit 
+s47(29Mar2023:17:22:50):  ncverilog tb.sv LASER.v +define+USECOLOR +access+r +nc64bit 
+s48(29Mar2023:17:23:53):  ncverilog tb.sv LASER.v +define+USECOLOR +access+r +nc64bit 
+s49(29Mar2023:17:31:58):  ncverilog tb.sv LASER.v +define+USECOLOR +access+r +nc64bit 
+s50(29Mar2023:17:34:14):  ncverilog tb.sv LASER.v +define+USECOLOR +access+r +nc64bit 
+s51(29Mar2023:17:37:31):  ncverilog tb.sv LASER.v +define+USECOLOR +access+r +nc64bit 
+s52(29Mar2023:17:42:30):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+USECOLOR +access+r +nc64bit 
+s53(29Mar2023:17:44:32):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+USECOLOR +access+r +nc64bit 
+s54(29Mar2023:17:46:22):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+USECOLOR +access+r +nc64bit 
+s55(29Mar2023:17:47:40):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+USECOLOR +access+r +nc64bit 
+s56(29Mar2023:17:49:01):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+USECOLOR +access+r +nc64bit 
+s57(29Mar2023:17:50:15):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+USECOLOR +access+r +nc64bit 
+s58(29Mar2023:17:52:44):  ncverilog tb.sv LASER.v +define+USECOLOR +access+r +nc64bit 
+s59(29Mar2023:17:54:33):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+USECOLOR +access+r +nc64bit 
+s60(29Mar2023:17:56:06):  ncverilog tb.sv LASER_syn.v tsmc13_neg.v +define+SDF +define+USECOLOR +access+r +nc64bit 
+s61(17Apr2023:22:28:14):  ncverilog tb.sv LASER.v +define+SDF +access+r +nc64bit 

@@ -1,0 +1,10 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-INCDIR
+/home/charlie/icc/graduate/icc2018cb_pre/src
+-DEFINE
+FSDB_FILE=\"huffman.fsdb\"
+-DEFINE
+tb

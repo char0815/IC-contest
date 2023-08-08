@@ -1,0 +1,13 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-sv
+/home/charlie/icc/graduate/icc2020cb_pre/sim/testfixture.sv
+/home/charlie/icc/graduate/icc2020cb_pre/src/def.v
+/home/charlie/icc/graduate/icc2020cb_pre/src/SME.v
++incdir+/home/charlie/icc/graduate/icc2020cb_pre/src
++nc64bit
++access+r
++define+SHM_FILE=\"SME.shm\"
++define+FSDB_FILE=\"SME.fsdb\"

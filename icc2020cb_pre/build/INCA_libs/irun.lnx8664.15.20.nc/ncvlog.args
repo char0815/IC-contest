@@ -1,0 +1,26 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-XLMODE
+./INCA_libs/irun.lnx8664.15.20.nc
+-RUNMODE
+-sv
+/home/charlie/icc/graduate/icc2020cb_pre/sim/testfixture.sv
+/home/charlie/icc/graduate/icc2020cb_pre/src/def.v
+/home/charlie/icc/graduate/icc2020cb_pre/src/SME.v
+-INCDIR
+/home/charlie/icc/graduate/icc2020cb_pre/src
+-DEFINE
+SHM_FILE=\"SME.shm\"
+-DEFINE
+FSDB_FILE=\"SME.fsdb\"
+-CDSLIB
+./INCA_libs/irun.lnx8664.15.20.nc/cdsrun.lib
+-HDLVAR
+./INCA_libs/irun.lnx8664.15.20.nc/hdlrun.var
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./INCA_libs/irun.lnx8664.15.20.nc/xllibs
+-ALLOWUNBOUND

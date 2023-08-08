@@ -1,0 +1,70 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : LBP
+Version: T-2022.03
+Date   : Thu Jul 20 15:58:10 2023
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: count_reg_1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: gray_addr_reg_13_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  LBP                tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  count_reg_1_/CK (DFFRX2)                 0.00       0.50 r
+  count_reg_1_/QN (DFFRX2)                 0.52       1.02 r
+  U438/Y (NOR2X1)                          0.22       1.24 f
+  U212/Y (INVX1)                           0.31       1.55 r
+  U250/Y (NOR2X2)                          0.21       1.76 f
+  U416/Y (CLKINVX1)                        0.15       1.91 r
+  U211/Y (NAND2X2)                         0.32       2.23 f
+  U459/Y (OR2X4)                           0.35       2.58 f
+  U467/Y (NAND2X1)                         0.21       2.79 r
+  U468/Y (NAND2X2)                         0.18       2.97 f
+  U563/CO (ADDFHX4)                        0.34       3.31 f
+  U569/CO (ADDFXL)                         0.47       3.78 f
+  U567/CO (ADDFXL)                         0.53       4.31 f
+  U565/CO (ADDFXL)                         0.53       4.84 f
+  U559/CO (ADDFXL)                         0.53       5.37 f
+  U561/CO (ADDFXL)                         0.53       5.89 f
+  U573/CO (ADDFXL)                         0.53       6.42 f
+  U571/CO (ADDFXL)                         0.53       6.95 f
+  U574/CO (ADDFXL)                         0.53       7.48 f
+  U576/CO (ADDFXL)                         0.53       8.01 f
+  U578/CO (ADDFX2)                         0.40       8.41 f
+  U478/CO (ADDFHX1)                        0.32       8.72 f
+  U473/Y (XOR2X1)                          0.21       8.93 r
+  U353/Y (OAI2BB1X2)                       0.22       9.15 r
+  gray_addr_reg_13_/D (DFFRX1)             0.00       9.15 r
+  data arrival time                                   9.15
+
+  clock clk (rise edge)                    9.00       9.00
+  clock network delay (ideal)              0.50       9.50
+  clock uncertainty                       -0.10       9.40
+  gray_addr_reg_13_/CK (DFFRX1)            0.00       9.40 r
+  library setup time                      -0.24       9.16
+  data required time                                  9.16
+  -----------------------------------------------------------
+  data required time                                  9.16
+  data arrival time                                  -9.15
+  -----------------------------------------------------------
+  slack (MET)                                         0.01
+
+
+1

@@ -1,0 +1,10 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-INCDIR
+/home/charlie/icc/graduate/icc2015cb_pre/src
+-DEFINE
+FSDB_FILE=\"SET.fsdb\"
+-DEFINE
+MD1

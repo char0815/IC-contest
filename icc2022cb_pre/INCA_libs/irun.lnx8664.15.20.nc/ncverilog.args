@@ -1,0 +1,10 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+tb.sv
+JAM.sv
++nc64bit
++access+r
++define+FSDB
++define+P2
